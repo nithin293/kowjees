@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+
+
+}
+
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 94);
+    color: white;
+    padding: 20px 40px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.Kow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 3000px;
+    gap: 200px;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+}
+
+.Kow Kow-image{
+    display: inline;
+    width: 5px;
+    height:auto;
+    background-color: black;
+
+}
+
+.Kow-text h1{
+    font-size: 32px;
+    margin-bottom: 16px;
+    gap: 200px;
+
+}
+
+.Kow-text p{
+    margin-bottom: 30px;
+
+}
+
+.Kow button{
+    padding: 20px 40px;
+    background-color: rgb(10, 10, 139);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+.Kow button:hover{
+    background-color: rgb(44, 90, 214);
+
+}
+
+.features{
+    display: flex;
+    background-color: rgb(246, 245, 245);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.feature{
+    flex: 1 1 250px;
+    background-color: #f94a4a;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.product-galary{
+    background-color: #fff6f6;
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+.product-galary h2{
+    background-color: #ddcfcf;
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 125px;
+    padding: 20px ;
+    box-shadow: 0px 6px 8px #f9f9f9;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+
+}
+.product-card{
+    border-radius: 10px;
+    box-shadow:0px 10px 20px rgb(3, 2, 2) ;
+    transition: transform .3s ease;
+    padding: 10px;
+
+}
+.product-card:hover {
+    transform: translate(0,-10px);
+}
+
+.jee h4{
+    font-weight: 900;
+    font-size: 15px;
+}
+.jee{
+    background-color: rgb(29, 29, 209);
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+}
+
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+button{
+    background-color: white;
+    padding: 2px;
+}
